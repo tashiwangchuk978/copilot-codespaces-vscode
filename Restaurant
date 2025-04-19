@@ -1,0 +1,70 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yanglay Restaurant</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fff8f0; color: #333; }
+    header { background: #d35400; color: white; padding: 1rem; text-align: center; }
+    nav { background: #f39c12; padding: 0.5rem; text-align: center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+    .container { padding: 1rem; }
+    .menu-item { margin-bottom: 10px; }
+    footer { background: #d35400; color: white; padding: 1rem; text-align: center; }
+    input[type="number"] { width: 50px; }
+    button { background: #e67e22; color: white; padding: 0.5rem 1rem; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Yanglay Restaurant</h1>
+    <p>Serving the hardworking people of the Sephu Soler Project</p>
+  </header>  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#order">Order Now</a>
+    <a href="#contact">Contact</a>
+  </nav>  <div class="container">
+    <section id="menu">
+      <h2>Menu</h2>
+      <div class="menu-item">Pock Curry – Nu. 250</div>
+      <div class="menu-item">Chicken Curry – Nu. 250</div>
+      <div class="menu-item">Ema Datsi – Nu. 180</div>
+      <div class="menu-item">Khawa Datsi – Nu. 180</div>
+      <div class="menu-item">Koka with Egg – Nu. 100</div>
+      <div class="menu-item">Koka without Egg – Nu. 80</div>
+      <div class="menu-item">Mege – Nu. 50</div>
+      <div class="menu-item">Chile Chop – Nu. 50</div>
+      <div class="menu-item">Momo – Nu. 50</div>
+      <div class="menu-item">Tea – Nu. 30</div>
+      <div class="menu-item">Pore – Nu. 80</div>
+    </section><section id="order">
+  <h2>Order Now</h2>
+  <form>
+    <label>Pock Curry <input type="number" min="0" name="pock" /></label><br />
+    <label>Chicken Curry <input type="number" min="0" name="chicken" /></label><br />
+    <label>Ema Datsi <input type="number" min="0" name="ema" /></label><br />
+    <label>Khawa Datsi <input type="number" min="0" name="khawa" /></label><br />
+    <label>Koka with Egg <input type="number" min="0" name="kokaegg" /></label><br />
+    <label>Koka without Egg <input type="number" min="0" name="koka" /></label><br />
+    <label>Mege <input type="number" min="0" name="mege" /></label><br />
+    <label>Chile Chop <input type="number" min="0" name="chile" /></label><br />
+    <label>Momo <input type="number" min="0" name="momo" /></label><br />
+    <label>Tea <input type="number" min="0" name="tea" /></label><br />
+    <label>Pore <input type="number" min="0" name="pore" /></label><br /><br />
+    <button type="submit">Place Order</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p><strong>Bank Payment:</strong> DK Bank - 110171333850</p>
+  <p><strong>Phone:</strong> 17589606</p>
+  <p><strong>Location:</strong> Near Sephu Soler Project, Sephu</p>
+  <p><a href="https://www.google.com/maps?q=27.5273491,90.2444612" target="_blank">View on Map</a></p>
+</section>
+
+  </div>  <footer>
+    <p>© 2025 Yanglay Restaurant. All rights reserved.</p>
+  </footer>
+</body>
+</html>
